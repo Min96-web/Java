@@ -1,0 +1,12 @@
+To solve this project I create two java filer to relate with each other. It can better distribute the responsibility
+so that I would not get duplicate code as much as possible. I create a first class with the name of 'Vocabulary
+Handler' that relate to the second class with the name of 'Vocabulary'. Due to the project have Swedish
+as the prompt vocabulary and English from the user as the answer vocabulary, I create two String variable both 'prompt' and
+'answer' in 'Vocabulary' that can use in the 'VocabularyHandler' java file. To separate the project I create three method
+in this program. A method to print the program instruction, a method to create the array for these vocabularies and also
+a method to get the input from the user. I choose these divisions because of these methods make my program easy to work,
+make my code easy to understand and also easy for my program to add new functions in the future. I make sure that there
+are no more code in the main method, which make my program easy to add and run a new method. It is ok that I create my array
+in my main method but I do not think that is good solution in this project, because it is more complex if I want to add a
+new function in the future. I create my array in a new method which make I can better control my program and as I mention
+before it is better for the future to add a new function in my program.
